@@ -1,0 +1,92 @@
+* {
+  position: static;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  grid-template-areas:
+    "picture"
+    "header"
+    "instructions"
+    "footer";
+}
+
+ul {
+  font-size: 28px;
+  text-decoration: none;
+}
+li {
+  text-decoration: none;
+}
+
+.header-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  top: 0;
+  left: 0;
+  background-image: url(https://www.sarabackmo.se/wp-content/uploads/2018/03/j4a3257_l.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+}
+
+.header-card {
+  display: flex;
+  justify-content: center;
+  background-color: bisque;
+  height: 250px;
+  width: 500px;
+  border-radius: 25px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.instruction-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 5vh;
+}
+
+.instruction-ingredients {
+  text-align: center;
+  height: 40vh;
+  width: 50vw;
+  align-self: center;
+  justify-self: center;
+}
+
+.instruction-howto {
+  height: 40vh;
+  width: 50vw;
+  align-self: center;
+  justify-self: center;
+}
+
+.footer-flex {
+  display: flex;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.footer-card {
+  display: flex;
+  justify-content: center;
+  background-color: bisque;
+  height: 500px;
+  width: 250px;
+  border-radius: 25px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.footer-image {
+  background-image: url(https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_221660/cf_259/kladdig_kladdkaka.jpg);
+}
