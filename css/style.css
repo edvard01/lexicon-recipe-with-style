@@ -13,14 +13,12 @@ body {
     "header"
     "instructions"
     "footer";
+  background-color: rgb(248, 242, 224);
 }
 
 ul {
   font-size: 28px;
-  text-decoration: none;
-}
-li {
-  text-decoration: none;
+  list-style-type: none;
 }
 
 .header-image {
@@ -67,13 +65,24 @@ li {
   height: 40vh;
   width: 50vw;
   align-self: center;
-  justify-self: center;
+  padding-right: 10%;
 }
 
 .footer-flex {
   display: flex;
   align-items: center;
   margin-top: 5vh;
+  width: 100vw;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 100vw;
+  background-image: url(https://lagahemma.se/bilder/kladdkaka-utan-gluten.jpg);
+  background-size: cover;
 }
 
 .footer-card {
@@ -85,8 +94,4 @@ li {
   border-radius: 25px;
   text-align: center;
   flex-direction: column;
-}
-
-.footer-image {
-  background-image: url(https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_221660/cf_259/kladdig_kladdkaka.jpg);
 }
